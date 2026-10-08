@@ -1,0 +1,10 @@
+{
+  "name": "aisle-mcp",
+  "version": "1.0.0",
+  "description": "Find wedding venues and suppliers, plan budgets and timelines, and manage wedding details. Public planning is free; private tools use OAuth and changes require an Aisle membership.",
+  "mcpServers": {
+    "aisle": {
+      "httpUrl": "https://aisle.wedding/api/claude/mcp"
+    }
+  }
+}
