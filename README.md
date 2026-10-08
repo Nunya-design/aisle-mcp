@@ -40,6 +40,17 @@ The full endpoint below remains available with additional tools. See the
 [current tool and connection documentation](https://aisle.wedding/mcp) for the
 differences between endpoints.
 
+## Gemini CLI
+
+Install the remote connector from this public repository:
+
+```sh
+gemini extensions install https://github.com/Nunya-design/aisle-mcp
+```
+
+The extension connects to the consumer endpoint above using Streamable HTTP.
+Your client's normal tool approvals and Aisle's sign-in rules still apply.
+
 ## Full MCP endpoint
 
 ```
