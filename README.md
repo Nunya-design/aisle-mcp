@@ -6,7 +6,41 @@ This repository documents Aisle's **Model Context Protocol (MCP) server** — a 
 
 > Aisle is one of the only wedding platforms with a live MCP server. Ask ChatGPT or Claude to "find Tuscany wedding venues for 80 guests" and it can answer from Aisle's real inventory.
 
-## Endpoint
+## Consumer directory connector
+
+For the Aisle listing in MCP marketplaces and Claude's connector directory, use:
+
+```text
+https://aisle.wedding/api/claude/mcp
+```
+
+This hosted Streamable HTTP connector exposes public venue and supplier search,
+budget estimates, timelines and planning tools without an account. Private wedding
+details, guests, RSVP totals, events, accommodations and registry progress require
+OAuth sign-in; changes require an existing Aisle membership.
+
+Individual guest tools include only guests confirmed as 13 or older. Guest notes
+and dietary details are excluded. This connector does not book venues, collect
+payments or publish custom HTML. Estimates are planning guidance, not supplier
+quotes or live availability.
+
+For clients that accept remote MCP configuration:
+
+```json
+{
+  "mcpServers": {
+    "aisle": {
+      "url": "https://aisle.wedding/api/claude/mcp"
+    }
+  }
+}
+```
+
+The full endpoint below remains available with additional tools. See the
+[current tool and connection documentation](https://aisle.wedding/mcp) for the
+differences between endpoints.
+
+## Full MCP endpoint
 
 ```
 https://aisle.wedding/api/mcp
