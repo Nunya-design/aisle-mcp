@@ -8,6 +8,12 @@ title: Aisle MCP Server
 
 Aisle runs a public **Model Context Protocol (MCP)** server so AI assistants like **ChatGPT** and **Claude** can search real wedding data and help couples plan inside a conversation.
 
+## Find Aisle in the assistants' directories
+
+- **ChatGPT app:** [Aisle in the ChatGPT app directory](https://chatgpt.com/plugins/plugin_asdk_app_6abe5cdfe1348191a444e1ada62cb435)
+- **Claude connector:** [Aisle in Claude's connector directory](https://claude.ai/directory/aisle)
+- **Official MCP Registry:** `wedding.aisle/aisle` at [registry.modelcontextprotocol.io](https://registry.modelcontextprotocol.io/v0.1/servers?search=wedding.aisle)
+
 ## Consumer directory connector
 
 For the Aisle listing in MCP marketplaces and Claude's connector directory, use:
