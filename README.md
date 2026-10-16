@@ -6,6 +6,12 @@ This repository documents Aisle's **Model Context Protocol (MCP) server** — a 
 
 > Aisle is one of the only wedding platforms with a live MCP server. Ask ChatGPT or Claude to "find Tuscany wedding venues for 80 guests" and it can answer from Aisle's real inventory.
 
+## Find Aisle in the assistants' directories
+
+- **ChatGPT app:** [Aisle in the ChatGPT app directory](https://chatgpt.com/plugins/plugin_asdk_app_6abe5cdfe1348191a444e1ada62cb435)
+- **Claude connector:** [Aisle in Claude's connector directory](https://claude.ai/directory/aisle)
+- **Official MCP Registry:** `wedding.aisle/aisle` at [registry.modelcontextprotocol.io](https://registry.modelcontextprotocol.io/v0.1/servers?search=wedding.aisle)
+
 ## Consumer directory connector
 
 For the Aisle listing in MCP marketplaces and Claude's connector directory, use:
